@@ -1,9 +1,10 @@
 import React from 'react';
+import { Header } from './components';
 
 const App = () => {
 	return (
-		<div className='mx-auto w-full max-w-1440 py-4 md:py-10 lg:py-40'>
-			<h1 className='text-4xl font-bold text-center'>App goes here</h1>
+		<div className='mx-auto w-full max-w-1440 py-8 px-4 md:px-10 lg:px-40'>
+			<Header />
 		</div>
 	);
 };
