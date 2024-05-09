@@ -8,10 +8,9 @@ const Navbar = () => {
 				</a>
 			</div>
 			<div className='flex flex-col gap-1 group cursor-pointer'>
-				<p className='text-white group-hover:text-[#44FFA1]'>
+				<p className='text-white underline underline-offset-8 decoration-[#44FFA1] group-hover:text-[#44FFA1]'>
 					Apply for access
 				</p>
-				<div className='underline'></div>
 			</div>
 		</div>
 	);
