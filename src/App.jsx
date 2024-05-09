@@ -1,11 +1,11 @@
 import React from 'react';
-import { Header, Main } from './components';
+import { Header, MainContent } from './components';
 
 const App = () => {
 	return (
 		<div className='mx-auto'>
 			<Header />
-			<Main />
+			<MainContent />
 		</div>
 	);
 };
