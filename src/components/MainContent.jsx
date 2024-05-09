@@ -3,10 +3,12 @@ import SingleItem from './SingleItem';
 
 const MainContent = () => {
 	return (
-		<main className='align-element bg-[#FCF8FF] grid grid-cols-1 place-content-center gap-y-10'>
-			{items.map((item) => {
-				return <SingleItem key={item.id} {...item} />;
-			})}
+		<main className='w-full bg-[#FCF8FF] grid place-items-center py-16'>
+			<section className='w-full align-element grid grid-cols-1 lg:grid-cols-3 place-items-center gap-y-10 lg:gap-x-6'>
+				{items.map((item) => {
+					return <SingleItem key={item.id} {...item} />;
+				})}
+			</section>
 		</main>
 	);
 };
