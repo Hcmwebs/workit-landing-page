@@ -1,6 +1,7 @@
 import Header from './Header';
 import Hero from './Hero';
-import Main from './Main';
+import MainContent from './MainContent';
 import Navbar from './Navbar';
+import SingleItem from './SingleItem';
 
-export { Main, Header, Hero, Navbar };
+export { SingleItem, MainContent, Header, Hero, Navbar };
