@@ -11,7 +11,7 @@ const Hero = () => {
 					</span>{' '}
 					to your needs.
 				</h1>
-				<button className='btn btn-primary rounded-none border-0 bg-[#44FFA1] text-[#24053E] hover:border hover:border-[#44FFA1] hover:bg-[#24053E] hover:text-[#44FFA1] transition duration-500 ease-in-out cursor-pointer'>
+				<button className='btn btn-primary rounded-none border-0 bg-[#44FFA1] text-[#24053E] hover:border hover:border-[#44FFA1] hover:bg-[#24053E] hover:text-[#44FFA1] transition-all duration-300 ease-in-out cursor-pointer'>
 					Learn more
 				</button>
 				<div className='w-80 md:w-[514px] lg:w-[767px] h-[184px] md:h-[296px] lg:h-[441px]'>
