@@ -1,7 +1,8 @@
+import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero';
 import MainContent from './MainContent';
 import Navbar from './Navbar';
 import SingleItem from './SingleItem';
 
-export { SingleItem, MainContent, Header, Hero, Navbar };
+export { Footer, SingleItem, MainContent, Header, Hero, Navbar };
