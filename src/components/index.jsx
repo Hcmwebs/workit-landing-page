@@ -1,5 +1,6 @@
 import Header from './Header';
 import Hero from './Hero';
+import Main from './Main';
 import Navbar from './Navbar';
 
-export { Header, Hero, Navbar };
+export { Main, Header, Hero, Navbar };
