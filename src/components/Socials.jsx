@@ -5,7 +5,7 @@ import { SocialItem } from './index';
 
 const Socials = () => {
 	return (
-		<div>
+		<div className='grid grid-cols-1 place-items-start w-full max-w-28 gap-y-14'>
 			<img src={logoDark} alt='logo' />
 			<div>
 				{socialItems.map((item) => {
