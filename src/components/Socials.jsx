@@ -7,7 +7,7 @@ const Socials = () => {
 	return (
 		<div className='grid grid-cols-1 place-items-start w-full max-w-28 gap-y-14'>
 			<img src={logoDark} alt='logo' />
-			<div>
+			<div className='flex gap-x-6'>
 				{socialItems.map((item) => {
 					return <SocialItem key={item.id} {...item} />;
 				})}

@@ -1,5 +1,7 @@
 import founderWebp from '../assets/image-founder.webp';
 import founder from '../assets/image-founder.jpeg';
+import { Pattern } from './index';
+import pattern3 from '../assets/bg-pattern-3.svg';
 
 const Profile = () => {
 	return (
@@ -14,7 +16,7 @@ const Profile = () => {
 					/>
 				</picture>
 			</header>
-			<div className='bg-[#24053E] grid grid-cols-1 place-items-center md:justify-items-start gap-y-4 w-full p-8 md:p-14 lg:p-16 -translate-y-12 md:translate-y-8 md:-translate-x-16 lg:-translate-x-10 lg:translate-y-24 lg:min-h-[413px]'>
+			<div className='bg-[#24053E] grid grid-cols-1 place-items-center md:justify-items-start gap-y-4 w-full p-8 md:p-14 lg:p-16 -translate-y-12 md:translate-y-8 md:-translate-x-16 lg:-translate-x-10 lg:translate-y-24 lg:min-h-[413px] relative'>
 				<h3 className='w-full text-white font-semibold text-3xl text-center md:text-left md:text-4xl lg:text-6xl'>
 					Be the first to test
 				</h3>

@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SocialItem = ({ src, title }) => {
+const SocialItem = ({ src, title, link }) => {
 	return (
 		<>
-			<a href='#' className='cursor-pointer'>
+			<a href={link} className='cursor-pointer'>
 				<img src={src} alt={title} />
 			</a>
 		</>
