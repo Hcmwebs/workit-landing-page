@@ -4,5 +4,6 @@ import Hero from './Hero';
 import MainContent from './MainContent';
 import Navbar from './Navbar';
 import SingleItem from './SingleItem';
+import SocialItem from './SocialItem';
 
-export { Footer, SingleItem, MainContent, Header, Hero, Navbar };
+export { SocialItem, Footer, SingleItem, MainContent, Header, Hero, Navbar };

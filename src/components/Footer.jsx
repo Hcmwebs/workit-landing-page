@@ -2,14 +2,13 @@ import React from 'react';
 import logoDark from '../assets/logo-dark.svg';
 import founderWebp from '../assets/image-founder.webp';
 import founder from '../assets/image-founder.jpeg';
-import facebook from '../assets/icon-facebook.svg';
-import instagram from '../assets/icon-instagram.svg';
-import twitter from '../assets/icon-twitter.svg';
+import { socialItems } from '../data/Data';
+import { SocialItem } from './index';
 
 const Footer = () => {
 	return (
-		<footer className='bg-white grid grid-col-1 place-items-center w-full'>
-			<section className='align-element'>
+		<footer className='bg-white py-16 grid grid-col-1 place-items-center w-full'>
+			<section className='align-element grid grid-col-1 place-items-center w-full gap-y-20'>
 				<article className='flex flex-col'>
 					<header className='w-72 h-72 grid grid-cols-1 place-items-center rounded-full'>
 						<picture>
@@ -34,15 +33,9 @@ const Footer = () => {
 				<div>
 					<img src={logoDark} alt='logo' />
 					<div>
-						<a href='#'>
-							<img src={facebook} alt='facebook' />
-						</a>
-						<a href='#'>
-							<img src={facebook} alt='facebook' />
-						</a>
-						<a href='#'>
-							<img src={facebook} alt='facebook' />
-						</a>
+						{socialItems.map((item) => {
+							return <SocialItem key={item.id} {...item} />;
+						})}
 					</div>
 				</div>
 			</section>
