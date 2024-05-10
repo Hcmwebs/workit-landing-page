@@ -1,7 +1,10 @@
 import React from 'react';
 import { nanoid } from 'nanoid';
+import facebook from '../assets/icon-facebook.svg';
+import instagram from '../assets/icon-instagram.svg';
+import twitter from '../assets/icon-twitter.svg';
 
-const items = [
+export const items = [
 	{
 		id: nanoid(),
 		number: 1,
@@ -22,4 +25,20 @@ const items = [
 	},
 ];
 
-export default items;
+export const socialItems = [
+	{
+		id: nanoid(),
+		title: 'facebook',
+		src: facebook,
+	},
+	{
+		id: nanoid(),
+		title: 'instagram',
+		src: instagram,
+	},
+	{
+		id: nanoid(),
+		title: 'twitter',
+		src: twitter,
+	},
+];
