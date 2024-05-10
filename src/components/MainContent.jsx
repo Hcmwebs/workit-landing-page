@@ -1,4 +1,4 @@
-import items from '../data/Data';
+import { items } from '../data/Data';
 import SingleItem from './SingleItem';
 
 const MainContent = () => {
