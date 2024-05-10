@@ -30,15 +30,18 @@ export const socialItems = [
 		id: nanoid(),
 		title: 'facebook',
 		src: facebook,
-	},
-	{
-		id: nanoid(),
-		title: 'instagram',
-		src: instagram,
+		link: 'https://www.facebook.com',
 	},
 	{
 		id: nanoid(),
 		title: 'twitter',
 		src: twitter,
+		link: 'https://twitter.com/',
+	},
+	{
+		id: nanoid(),
+		title: 'instagram',
+		src: instagram,
+		link: 'https://www.instagram.com/',
 	},
 ];
