@@ -5,7 +5,10 @@ import pattern3 from '../assets/bg-pattern-3.svg';
 
 const Profile = () => {
 	return (
-		<article className='flex flex-col md:flex-row w-full md:max-w-2xl lg:max-w-6xl justify-center items-center md:h-[526px] lg:h-[650px]'>
+		<article
+			className='flex flex-col md:flex-row w-full md:max-w-2xl lg:max-w-6xl justify-center items-center md:h-[526px] lg:h-[650px]
+		'
+		>
 			<header className='w-72 lg:w-[477px] h-72 lg:h-[477px] grid grid-cols-1 place-items-center md:self-start  rounded-full'>
 				<picture>
 					<source srcSet={founderWebp} type='image/webp' />
@@ -16,7 +19,7 @@ const Profile = () => {
 					/>
 				</picture>
 			</header>
-			<div className='bg-[#24053E] grid grid-cols-1 place-items-center md:justify-items-start gap-y-4 w-full p-8 md:p-14 lg:p-16 -translate-y-12 md:translate-y-8 md:-translate-x-16 lg:-translate-x-10 lg:translate-y-24 lg:min-h-[413px] relative'>
+			<div className='bg-[#24053E] grid grid-cols-1 place-items-center md:justify-items-start gap-y-4 w-full p-8 md:p-14 lg:p-16 -translate-y-12 md:translate-y-8 md:-translate-x-16 lg:-translate-x-10 lg:translate-y-24 lg:min-h-[413px] md:relative'>
 				<h3 className='w-full text-white font-semibold text-3xl text-center md:text-left md:text-4xl lg:text-6xl'>
 					Be the first to test
 				</h3>
@@ -32,6 +35,10 @@ const Profile = () => {
 				>
 					Apply for access
 				</button>
+				<Pattern
+					pattern={pattern3}
+					className='hidden md:block absolute -bottom-24 right-4 lg:right-24'
+				/>
 			</div>
 		</article>
 	);
