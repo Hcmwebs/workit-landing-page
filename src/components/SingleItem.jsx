@@ -8,7 +8,7 @@ const SingleItem = ({ id, title, text, number }) => {
 					{number}
 				</header>
 				<div className='gap-4 md:max-w-lg  lg:max-w-[354px] grid grid-cols-1 gap-y-4 text-center md:text-left lg:text-center'>
-					<h4 className='font-semibold text-3xl leading-9'>{title}</h4>
+					<h2 className='font-semibold text-3xl leading-9'>{title}</h2>
 					<p className='text-base lg:text-lg font-normal'>{text}</p>
 				</div>
 			</div>
