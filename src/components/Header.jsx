@@ -4,7 +4,7 @@ import pattern2 from '../assets/bg-pattern-2.svg';
 
 const Header = () => {
 	return (
-		<header className=' w-full grid grid-cols-1 place-items-center bg-[#24053E] relative'>
+		<header className=' w-full grid grid-cols-1 place-items-center bg-[#24053E] relative overflow-hidden'>
 			<Navbar />
 			<Pattern
 				pattern={pattern1}
